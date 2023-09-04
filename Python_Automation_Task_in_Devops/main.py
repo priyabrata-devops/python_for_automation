@@ -18,10 +18,10 @@ create_new_vpc = ec2_client.create_vpc(
     CidrBlock='192.168.0.0/16',
 )
 
-create_new_subnet = create_new_vpc.create_subnet(
+create_new_subnet_1 = create_new_vpc.create_subnet(
     CidrBlock='192.168.1.0/24',
 )
 
-create_new_subnet = create_new_vpc.create_subnet(
+create_new_subnet_2 = create_new_vpc.create_subnet(
     CidrBlock='192.168.2.0/24',
 )
